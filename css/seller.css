@@ -100,9 +100,9 @@
   }
   
 .slanted {
-    margin-top: -249px;
+    margin-top: -343px !important;
     background-color: #000;
-    height: 700px;
+    height: 911px !important;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
     transform: rotate(180deg);
@@ -212,6 +212,27 @@ select::-ms-expand {
     
     color: #8BBD43 !important;
 }
+/*************************************checkbox**************************/
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label {
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background:url("../seller-img/Group\ 252.png") no-repeat;
+  height: 100px;
+  width: 100px;;
+  background-size: 50%;
+}
+
+input[type=checkbox]:checked + label {
+  background:url("../seller-img/Group\ 251.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  background-size: 50%;
+}
 #footer .btn{
     background: #8BBD43;
     border-radius: 107px;
@@ -273,8 +294,8 @@ select::-ms-expand {
   line-height: 1;
 }
 .slanted{
-  margin-top: -490px;
-  height: 1141px;
+  margin-top: -507px !important;
+  height: 1483px !important;
 }
 .data-border{
   border: 0px;
@@ -300,7 +321,7 @@ select::-ms-expand {
   }
   
   /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     
     #home{
      
@@ -320,16 +341,17 @@ select::-ms-expand {
     }
    
 
-#choose-platform h3{
-  font-size: 30px;
-}
+  #choose-platform h3{
+    font-size: 30px !important;
+  }
 .mask-group{
   position: absolute;
 }
 .slanted{
-  margin-top: -325px;
-  height: 957px;
+  margin-top: -396px !important;
+  height: 1164px !important;
 }
+
 .data-border{
   border: 0px;
 }
@@ -342,8 +364,15 @@ select::-ms-expand {
 #footer h4{
   font-size: 22px;
 }
-
-
-  }
+}
+  @media only screen and (min-device-width : 1024px) {
+    #choose-platform h3{
+      font-size: 30px !important;
+    }
+    .slanted{
+      margin-top: -289px;
+      height: 708px;
+    }
+  } 
   
  
