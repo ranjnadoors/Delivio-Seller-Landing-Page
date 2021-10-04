@@ -61,10 +61,8 @@ z-index: 99;
 font-family:OpenSans-Light;
 font-weight: normal;
 font-size: 31px;
-line-height: 105%;
-
+/*line-height: 105%;*/
 align-items: center;
-
 color: #FFFFFF;
 }
 #home h3{
@@ -181,11 +179,11 @@ input::placeholder{
 color: #b5b5b5 !important;
 }
 #choose-platform h3{
-font-family: Merriweather;
+font-family: OpenSans-Light;
 font-style: normal;
 font-weight: bold;
 font-size: 44px !important;
-line-height: 55px;
+
 display: flex;
 align-items: center;
 letter-spacing: 0.5px;
@@ -195,7 +193,7 @@ color: #FFFFFF;
 background: #1B1B1B;
 }
 #data h3{
-font-family: Merriweather;
+font-family:OpenSans-Light;
 font-style: normal;
 font-weight: bold;
 font-size: 64px;
@@ -203,16 +201,13 @@ line-height: 80px;
 display: flex;
 align-items: center;
 letter-spacing: 0.5px;
-
 color: #1B1B1B;
-
 }
 #data label{
 font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
-line-height: 38px;
 display: flex;
 align-items: center;
 letter-spacing: 0.5px;
@@ -364,7 +359,7 @@ font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
-line-height: 50px;
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -385,7 +380,7 @@ font-family: Open_Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 27px !important;
-line-height: 37px;
+
 display: flex;
 align-items: center;
 letter-spacing: 0.5px;
@@ -404,7 +399,7 @@ z-index: 99;
 }
 #home h2{
 font-size: 30px;
-line-height: 50px;
+/*line-height: 50px;*/
 }
 #home h3{
 font-size: 25px;
@@ -421,10 +416,10 @@ font-size: 12px;
 
 #choose-platform h3{
 font-size: 30px !important;
-line-height: 1;
+
 }
 .slanted{
-margin-top: -432px !important;
+margin-top: -368px !important;
 height: 895px !important;
 }
 .wrapper{
@@ -456,7 +451,7 @@ font-size: 16px !important;
 left: 10%;
 }
 #meeting h1{
-font-size: 20px;
+font-size: 17px;
 }
 #footer h4{
 font-size: 16px !important;
